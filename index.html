@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="winter">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,6 +9,7 @@
 </head>
 <body>
   <header>
+    
     <div class="navbar pl-130 gap-6 bg-base-100 shadow-lg">
       <a href="#">Home</a>
       <a href="#">About</a>
@@ -21,25 +22,26 @@
       <div class="align-elements">
         <h2 class="text-3xl my-10">Products:</h2>
         <ul class="grid grid-cols-3 gap-5" id="products-list"></ul>
-        <template>
-            <div class="card bg-base-100 w-96 shadow-sm">
-  <figure>
-    <li data-aos="fade-up" data-aos-delay="50">
-<img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
+       <template>
+  <li data-aos="fade-up" data-aos-delay="50">
+    <div class="card bg-base-100 w-96 shadow-sm">
+      <figure>
+        <img
+          class="product-image"
+          src=""
+          alt="Shoes" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">Card Title</h2>
+        <p class="desc">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-    </li>
-    
-        </template>
+  </li>
+</template>
+
       </div>
     </section>
   </main>
@@ -54,4 +56,3 @@
 </html>
 
 
-!
