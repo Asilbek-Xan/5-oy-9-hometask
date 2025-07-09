@@ -17,7 +17,7 @@ function updateUi({ products }) {
 
 images.src = thumbnail;
 cardTitle.textContent = title;
-// description.textContent =  _description;
+description.textContent =  _description;
 
 
   productsList.appendChild(clone)
